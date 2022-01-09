@@ -19,11 +19,7 @@ Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ## TODO
 
-- [x] Add [expo](https://expo.dev) app for `ios` and `android`
-- [x] Remove `web` platform from expo template in `native` app
-- [ ] Evaluate [expo-next-react-navigation](https://github.com/nandorojo/expo-next-react-navigation) for common navigation components and hooks
-- [ ] Use [ui-kitten](https://akveo.github.io/react-native-ui-kitten/) in the `ui` package
-- [ ] Convert pre-built style and UI in `native` app to use components from the `ui` package
+Items that are considered TODO's are being tracked in [this project's GitHub Issues using the `enhancement` label](https://github.com/baldyeagle/ten-cookie-cutter/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement).
 
 ### Utilities
 
