@@ -8,10 +8,9 @@ This turborepo uses [Yarn](https://classic.yarnpkg.com/lang/en/) as a package ma
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `native`: an [expo](https://expo.dev) app for `ios` and `android` platforms
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `web`: a [Next.js](https://nextjs.org) app
+- `native`: an [Expo](https://expo.dev) app for `ios` and `android` platforms
+- `ui`: a stub React component library shared by both `web` and `native` applications
 - `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
@@ -32,15 +31,22 @@ This turborepo has some additional tools already setup for you:
 
 ## Setup
 
-This repository is used in the `npx create-turbo` command, and selected when choosing which package manager you wish to use with your monorepo (Yarn).
+Download the Expo cli with the following command:
+```
+npm install -g expo-cli
+```
+
+Then, download all of the dependencies with this command:
+```
+yarn
+```
 
 ### Build
 
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
-yarn run build
+yarn build
 ```
 
 ### Develop
@@ -48,9 +54,10 @@ yarn run build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
-yarn run dev
+yarn dev
 ```
+
+If you want to use the mobile app on your phone instead of a simulator, you may want to download the Expo Go app from your phone's app store. The Expo Go app can be opened by scanning a QR code that is generated after running `yarn dev`. I think it's worth doing.
 
 ### Remote Caching
 
@@ -59,7 +66,6 @@ Turborepo can use a technique known as [Remote Caching (Beta)](https://turborepo
 By default, Turborepo will cache locally. To enable Remote Caching (Beta) you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
 npx turbo login
 ```
 
