@@ -42,6 +42,7 @@
   "resolutions": {
     "colors": "1.4.0",
     "expo-yarn-workspaces": "~1.7.0",
+    "nanoid": "^3.1.31",
     "resolve": "1.20.0"
   }
 }
