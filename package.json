@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-basic-shared",
+  "name": "ten-cookie-cutter",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -40,6 +40,8 @@
     "node": ">=14.0.0"
   },
   "resolutions": {
-    "expo-yarn-workspaces": "~1.7.0"
+    "colors": "1.4.0",
+    "expo-yarn-workspaces": "~1.7.0",
+    "resolve": "1.20.0"
   }
 }

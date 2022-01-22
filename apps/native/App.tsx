@@ -1,3 +1,4 @@
+import { NativeBaseProvider } from 'native-base';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
@@ -13,9 +14,11 @@ export default function App() {
     return null;
   }
   return (
-    <SafeAreaProvider>
-      <Navigation colorScheme={colorScheme} />
-      <StatusBar />
-    </SafeAreaProvider>
+    <NativeBaseProvider>
+      <SafeAreaProvider>
+        <Navigation colorScheme={colorScheme} />
+        <StatusBar />
+      </SafeAreaProvider>
+    </NativeBaseProvider>
   );
 }
