@@ -40,9 +40,12 @@
     "node": ">=14.0.0"
   },
   "resolutions": {
+    "browserslist": "^4.16.5",
     "colors": "1.4.0",
     "expo-yarn-workspaces": "~1.7.0",
     "nanoid": "^3.1.31",
+    "node-fetch": "^2.6.1",
+    "postcss": "^8.2.13",
     "resolve": "1.20.0"
   }
 }
