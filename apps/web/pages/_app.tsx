@@ -1,12 +1,14 @@
-import React from 'react';
-import { NativeBaseProvider } from 'native-base';
+import "../styles/globals.css";
+import React from "react";
+import type { AppProps } from "next/app";
+import { NativeBaseProvider } from "native-base";
 
-function App({ Component, pageProps }) {
-    return (
-        <NativeBaseProvider>
-            <Component {...pageProps} />
-        </NativeBaseProvider>
-    )
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <NativeBaseProvider>
+      <Component {...pageProps} />
+    </NativeBaseProvider>
+  );
 }
 
-export default App;
+export default MyApp;
