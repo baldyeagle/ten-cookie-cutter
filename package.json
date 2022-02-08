@@ -10,7 +10,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "test": "turbo run test",
+    "test:jest": "turbo run test:jest",
+    "test:cypress": "turbo run test:cypress",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
@@ -31,7 +32,13 @@
       "lint": {
         "outputs": []
       },
-      "test": {
+      "test:jest": {
+        "dependsOn": [
+          "^build"
+        ],
+        "outputs": []
+      },
+      "test:cypress": {
         "dependsOn": [
           "^build"
         ],
