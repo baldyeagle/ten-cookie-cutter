@@ -34,3 +34,6 @@ yarn-error.log*
 
 # expo
 .expo
+
+# test outputs
+reports

@@ -1,6 +1,3 @@
 {
-    "extends": "../tsconfig",
-    "compilerOptions": {
-        "isolatedModules": false
-    }
+    "extends": "tsconfig/jest.json"
 }
