@@ -1,5 +1,7 @@
-import { Button as NBButton } from 'native-base';
+import React from "react";
+import { Button as NBButton, IButtonProps } from "native-base";
 
-export const Button = ({testID = 'button', ...rest}) => {
-  return <NBButton testID={testID} {...rest}>Boop</NBButton>;
+type ButtonProps = IButtonProps & {};
+export const Button = (props: ButtonProps) => {
+  return <NBButton {...props} />;
 };

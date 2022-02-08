@@ -1,5 +1,7 @@
 # Turborepo starter
 
+![alt text](./image.png)
+
 This is an official Yarn v1 starter turborepo.
 
 ## What's inside?
@@ -32,11 +34,13 @@ This turborepo has some additional tools already setup for you:
 ## Setup
 
 Download the Expo cli with the following command:
+
 ```
 npm install -g expo-cli
 ```
 
 Then, download all of the dependencies with this command:
+
 ```
 yarn
 ```
