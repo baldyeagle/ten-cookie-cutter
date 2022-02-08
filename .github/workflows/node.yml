@@ -30,7 +30,4 @@ jobs:
     - name: Run Jest tests
       run: yarn test:jest
     - name: Run Cypress tests
-      uses: cypress-io/github-action@v2
-      with:
-        build: yarn build
-        start: yarn test:cypress
+      run: yarn test:cypress
