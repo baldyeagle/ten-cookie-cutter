@@ -5,6 +5,7 @@ const withImages = require("next-images");
 const withPlugins = require("next-compose-plugins");
 const withTM = require("next-transpile-modules")([
   "ui",
+  "expo-next-react-navigation",
   "native-base",
   "react-native-svg",
   "react-native-safe-area-context",
