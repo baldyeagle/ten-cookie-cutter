@@ -4,6 +4,6 @@ describe('Home page', () => {
     })
 
     it('has a button', () => {
-        cy.get('[data-testid="button"]').click()
+        cy.get('[data-testid="welcome"]').click()
     })
 })

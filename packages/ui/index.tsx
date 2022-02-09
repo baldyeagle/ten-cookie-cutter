@@ -1,2 +1,2 @@
-export * from "./Button";
-export * from "./ColorModeSwitch";
+export * from "./components";
+export * from "./screens";
