@@ -1,5 +1,6 @@
 {
-    "baseUrl": "http://localhost:3000",
-    "screenshotsFolder": "../../reports/web",
-    "videosFolder": "../../reports/web"
+  "baseUrl": "http://localhost:3000",
+  "screenshotsFolder": "../../reports/web",
+  "videosFolder": "../../reports/web",
+  "projectId": "jzbr31"
 }

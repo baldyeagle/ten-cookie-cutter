@@ -1,4 +1,8 @@
-# Turborepo starter
+# Turborepo - Next, Expo and NativeBase
+
+![Light Version](./demo-light.png)
+
+![Dark Version](./demo-dark.png)
 
 This is an official Yarn v1 starter turborepo.
 
@@ -32,11 +36,13 @@ This turborepo has some additional tools already setup for you:
 ## Setup
 
 Download the Expo cli with the following command:
+
 ```
 npm install -g expo-cli
 ```
 
 Then, download all of the dependencies with this command:
+
 ```
 yarn
 ```
