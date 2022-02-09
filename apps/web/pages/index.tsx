@@ -60,9 +60,7 @@ export default function App() {
         </HStack>
       </VStack>
       <ColorModeSwitch />
-      <Link mt="6" href="https://docs.nativebase.io" isExternal>
-        <Button>Welcome</Button>
-      </Link>
+      <Button testID="welcome">Welcome</Button>
     </Center>
   );
 }

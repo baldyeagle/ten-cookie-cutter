@@ -1,6 +1,8 @@
-# Turborepo starter
+# Turborepo - Next, Expo and NativeBase
 
-![alt text](./image.png)
+![Light Version](./demo-light.png)
+
+![Dark Version](./demo-dark.png)
 
 This is an official Yarn v1 starter turborepo.
 

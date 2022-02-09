@@ -1,5 +1,7 @@
 const { withExpo } = require("@expo/next-adapter");
 const withFonts = require("next-fonts");
+const withImages = require("next-images");
+
 const withPlugins = require("next-compose-plugins");
 const withTM = require("next-transpile-modules")([
   "ui",
@@ -27,6 +29,7 @@ module.exports = withPlugins(
     [withTM, { reactStrictMode: true }],
     [withExpo, { projectRoot: __dirname, webpack5: true }],
     [withFonts, { projectRoot: __dirname, webpack5: true }],
+    [withImages, { projectRoot: __dirname, webpack5: true }],
   ],
   {
     webpack: (config) => {

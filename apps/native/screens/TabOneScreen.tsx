@@ -1,19 +1,16 @@
-import { StyleSheet } from "react-native";
 import {
-  Center,
-  Text,
-  Box,
-  Stack,
   AspectRatio,
-  HStack,
-  Heading,
+  Center,
   Code,
+  Heading,
+  HStack,
   Link,
+  Text,
   VStack,
 } from "native-base";
 import { Image } from "react-native";
+import { SvgUri } from "react-native-svg";
 import { Button, ColorModeSwitch } from "ui";
-import EditScreenInfo from "../components/EditScreenInfo";
 import { RootTabScreenProps } from "../types";
 
 export default function TabOneScreen({
@@ -34,9 +31,10 @@ export default function TabOneScreen({
             />
           </AspectRatio>
           <Text fontSize="4xl">+</Text>
-          <Image
-            source={{ uri: "http://localhost:3000/images/nativebase-logo.svg" }}
-            resizeMode="contain"
+          <SvgUri
+            uri="http://localhost:3000/images/nativebase-logo.svg"
+            width="100"
+            height="100"
           />
         </HStack>
         <Heading>Welcome to NativeBase</Heading>
